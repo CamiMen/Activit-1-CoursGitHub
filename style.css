@@ -1,0 +1,353 @@
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Fond-1 h1
+{
+    font-family: Dayrom;
+    font-size : 3em;
+    color:rgb(190, 228, 209);
+    text-align: center;
+    padding-bottom: -5px;
+}
+
+#Fond-1 h2
+{
+    font-family: Dayrom;
+    font-size : 2em;
+    color:rgb(84, 214, 149);
+    text-align: center;
+    padding-bottom : -5px;
+}
+
+header ul
+{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+header li
+{
+    margin-right: 15px;
+    
+}
+
+header a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+    
+}
+
+header a:hover
+{
+    color: #074928;
+    border-bottom: 3px solid #048620;
+}
+
+header
+{
+    background: url('separateur.png') repeat-x bottom;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+#Fond-1
+{
+    height: 750px;
+    background-color:rgb(0, 100, 0);
+}
+
+.Maison_accueil
+{
+    float: left;
+    width : 550px;
+    height: 470px;
+    margin-left : 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    border-radius: 0px 10px 0px 10px ; 
+    padding-right: 25px;
+}
+
+#Fond-1 p
+{
+    background-color:  rgb(245, 255, 250);
+    width: 1000px;
+    height: 490px;
+    margin-left : 20px;
+    margin-top: 20px;
+    border-radius : 10px;
+    text-align: justify;
+    padding-right: 15px;
+    font-size : 1.5em; 
+    font-family : Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    color: rgb(63, 29, 24);
+    padding: 25px;
+}
+
+/*Paragraphe 2 Photos et espaces*/
+
+#Fond-2P
+{
+    background-color: rgb(245, 255, 250);
+    display: flex;
+    justify-content: flex-end;
+}
+
+#Fond-2P h3
+{
+    font-size : 2em;
+    padding-right: 100px;
+    color: green;
+    padding-top: 100px;
+}
+
+.Pratique1
+{
+    width : 300px;
+    height:300px;
+    padding-right : 10px;
+    padding-top: 25px;
+}
+
+.Pratique2
+{
+    width : 300px;
+    height:300px;
+    padding-right: 10px;
+    padding-top: 25px;
+}
+
+.Pratique3
+{
+    width : 300px;
+    height:300px;
+    padding-right: 10 px;
+    padding-top: 25px;
+}
+
+#Fond-2D
+{
+    background-color: rgb(245, 255, 250);
+    display: flex;
+    justify-content: flex-start;
+}
+
+#Fond-2D h3
+{
+    font-size : 2em;
+    padding-left: 100px;
+    color: green;
+    padding-top: 100px;  
+}
+
+.Detente1
+{
+    width : 300px;
+    height:300px;
+    padding-right : 10px;
+    padding-top: 25px;
+}
+
+.Detente2
+{
+    width : 300px;
+    height:300px;
+    padding-right : 10px;
+    padding-top: 25px;
+}
+
+.Detente3
+{
+    width : 300px;
+    height:300px;
+    padding: 25px 10px 0px 0px;
+}
+
+#Fond-2C
+{
+    background-color: rgb(245, 255, 250);
+    display: flex;
+    justify-content: flex-end;
+}
+
+#Fond-2C h3
+{
+    font-size : 2em;
+    padding-right: 100px;
+    color: green;
+    padding-top: 100px;
+}
+
+.Cocooning1
+{
+    width : 300px;
+    height:300px;
+    padding: 25px 10px 0px 0px;
+}
+
+.Cocooning2
+{
+    width : 300px;
+    height:300px;
+    padding: 25px 10px 0px 0px;
+}
+
+.Cocooning3
+{
+    width : 300px;
+    height:300px;
+    padding: 25px 10px 0px 0px;
+}
+
+#Fond-2S
+{
+    background-color: rgb(245, 255, 250);
+    display: flex;
+    justify-content: flex-start;
+}
+
+#Fond-2S h3
+{
+    font-size : 2em;
+    padding-left: 100px;
+    color: green;  
+    padding-top: 100px;
+}
+
+.Service1
+{
+    width : 300px;
+    height:300px;
+    padding: 25px 10px 0px 0px;
+}
+
+.Service2
+{
+    width : 300px;
+    height:300px;
+    padding: 25px 10px 0px 0px;
+}
+
+.Service3
+{
+    width : 300px;
+    height:300px;
+    padding: 25px 10px 0px 0px;
+}
+
+/*Paragraphe 3 */
+
+#Fond-3
+{
+    height: 500px;
+    background-color: rgb(34, 139, 34);
+    display : flex;
+    justify-content: center;
+}
+
+#Actualites
+{
+    padding-right: 100px;
+}
+
+#Temoignages
+{
+    padding-left: 100px;
+}
+
+.Nom-temoignage
+{
+    font-size: 0.5em;
+    color: grey;
+}
+
+/*Bande 4 : reste sur toutes les pages*/
+#Fond-4
+{
+    display : flex; 
+    height: 600px;
+    background-color: azure;
+    justify-content: center;
+}
+
+.image-Plan
+{
+    width:600px;
+    height : 500px;
+    padding-right: 100px;
+    padding-top : 50px ;
+}
+
+#Localisation-texte
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.Saane
+{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-size: 2em;
+    color : rgb(9, 82, 40);
+    padding-top : 100px;
+}
+
+.Questions
+{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    color : rgb(9, 82, 40);
+    padding-top: 50px;
+    font-size : 2em;
+}
+footer
+{
+	display: flex;
+    justify-content: center;
+	background-color : #048620;
+	font-size : 0.75em;
+
+    bottom : 0px;
+	left: 0px;
+	right:0px;
+
+     padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+/* Code couleur vert : http://www.code-couleur.com/dictionnaire/couleur-v.html */
