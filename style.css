@@ -94,22 +94,21 @@ header
     width : 550px;
     height: 470px;
     margin-left : 15px;
-    margin-right: 15px;
+    margin-right: 40px;
     margin-top: 15px;
-    border-radius: 0px 10px 0px 10px ; 
-    padding-right: 25px;
+    border-radius: 20px ; 
 }
 
 #Fond-1 p
 {
     background-color:  rgb(245, 255, 250);
-    width: 1000px;
+    width: 1300px;
     height: 490px;
     margin-left : 20px;
     margin-top: 20px;
     border-radius : 10px;
     text-align: justify;
-    padding-right: 15px;
+    padding-right: 40px;
     font-size : 1.5em; 
     font-family : Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     color: rgb(63, 29, 24);
@@ -117,6 +116,11 @@ header
 }
 
 /*Paragraphe 2 Photos et espaces*/
+
+#Fond-2P img
+{
+    border-radius : 10px 0px 10px 0px;
+}
 
 #Fond-2P
 {
@@ -137,24 +141,26 @@ header
 {
     width : 300px;
     height:300px;
-    padding-right : 10px;
-    padding-top: 25px;
+    margin: 25px 10px 0px 0px;
 }
 
 .Pratique2
 {
     width : 300px;
     height:300px;
-    padding-right: 10px;
-    padding-top: 25px;
+    margin: 25px 10px 0px 0px;
 }
 
 .Pratique3
 {
     width : 300px;
     height:300px;
-    padding-right: 10 px;
-    padding-top: 25px;
+    margin: 25px 10px 0px 0px;
+}
+
+#Fond-2D img
+{
+    border-radius : 0px 10px 0px 10px;
 }
 
 #Fond-2D
@@ -176,23 +182,26 @@ header
 {
     width : 300px;
     height:300px;
-    padding-right : 10px;
-    padding-top: 25px;
+    margin: 25px 10px 0px 0px;
 }
 
 .Detente2
 {
     width : 300px;
     height:300px;
-    padding-right : 10px;
-    padding-top: 25px;
+    margin: 25px 10px 0px 0px;
 }
 
 .Detente3
 {
     width : 300px;
     height:300px;
-    padding: 25px 10px 0px 0px;
+    margin: 25px 10px 0px 0px;
+}
+
+#Fond-2C img
+{
+    border-radius : 10px 0px 10px 0px;
 }
 
 #Fond-2C
@@ -214,21 +223,26 @@ header
 {
     width : 300px;
     height:300px;
-    padding: 25px 10px 0px 0px;
+    margin: 25px 10px 0px 0px;
 }
 
 .Cocooning2
 {
     width : 300px;
     height:300px;
-    padding: 25px 10px 0px 0px;
+    margin: 25px 10px 0px 0px;
 }
 
 .Cocooning3
 {
     width : 300px;
     height:300px;
-    padding: 25px 10px 0px 0px;
+    margin: 25px 10px 0px 0px;
+}
+
+#Fond-2S img
+{
+    border-radius : 0px 10px 0px 10px;
 }
 
 #Fond-2S
@@ -250,21 +264,21 @@ header
 {
     width : 300px;
     height:300px;
-    padding: 25px 10px 0px 0px;
+    margin: 25px 10px 0px 0px;
 }
 
 .Service2
 {
     width : 300px;
     height:300px;
-    padding: 25px 10px 0px 0px;
+    margin: 25px 10px 0px 0px;
 }
 
 .Service3
 {
     width : 300px;
     height:300px;
-    padding: 25px 10px 0px 0px;
+    margin: 25px 10px 0px 0px;
 }
 
 /*Paragraphe 3 */
